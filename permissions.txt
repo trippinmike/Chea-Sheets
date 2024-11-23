@@ -1,0 +1,25 @@
+Permissions Cheat Sheet
+
+r- read
+w- write
+x- execute
+
+7- all permissions
+6- read and write
+5- read and execute
+4- read
+3- write and execute
+2- write
+1- execute
+
+ rwx	r-x	r--
+ user  group  otherusers
+
+777- total
+755- rwxr-wr-w
+
+sudo- superuser do
+
+chmod- change permissions
+chown- change owner
+chgrp- change group
