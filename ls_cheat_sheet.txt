@@ -1,0 +1,32 @@
+Listing (ls) Cheat Sheet
+
+ls [options] [file(s) or directory(s)]
+
+
+ls: List the contents of the current directory
+ls /path/to/directory: List the contents of a specific directory
+ll- Shortcut to long list
+
+ls -a --all: List all files, including hidden files. Hidden files are the files whose name starts with a dot (.)
+ls -l --long: Long listing format. Provides detailed information about each file or directory, including permissions, number of links, owner, group, size, and modification time.
+ls -lh: Long listing format and displaying file sizes in human-readable format (e.g., 1K, 2M, 3G) for better readability.
+ls -S --sort=WORD: Sort files by size, displaying the largest ones first.
+ls -t: Sort files by modification time, showing the most recently modified files first.
+ls -r: Reverse the order of the sort, displaying files in reverse order.
+ls -R: Recursively list subdirectories encountered. Lists the contents of subdirectories as well.
+ls -1: List one file per line. Prints each file on a new line, making the output easier to read.
+ls -d: List directories themselves, not their contents. Useful when you want to only list directories.
+ls -G: Enable colorized output. Differentiates file types and provides color highlighting for better visualization.
+ls -i: Print the index number of each file. Displays the inode number for each file or directory.
+ls -F: Append indicator characters to entries. Appends a character to indicate the type of each entry (e.g., a slash for directories, an asterisk for executable files).
+ls -m: Fill width with a comma-separated list of entries. Prints the file names as a comma-separated list with the specified width.
+ls -q: Display all non-printable characters as ‘?’. Replaces any non-printable characters in the file names with question marks.
+ls -g: Like -l, but do not list owner. Similar to the -l option, but does not display the owner’s name.
+ls -o: Like -l, but do not list group information. Similar to the -l option, but does not display the group information.
+ls -s: Print the allocated size of each file, in blocks. Displays the size of each file in blocks.
+ls -u: Use time of file creation, instead of last modification. Displays the creation time of each file or directory.
+ls -c: Use time of last status change, instead of last modification. Displays the time of the last status change of each file.
+ls -L: Follow symbolic links like normal files. Lists the information of the target file or directory that the symbolic link points to.
+ls -p: Append a slash (‘/’) to directories. Appends a slash to the end of each directory name for easier identification.
+
+
